@@ -48,7 +48,7 @@ interface IArweaveResult {
 
 const uploadToArweave = async (data: FormData): Promise<IArweaveResult> => {
   const resp = await fetch(
-    ARWEAVE_UPLOAD_ENDPOINT,
+    http://www.metaplex.darkartlabs.tech/,
     {
       method: 'POST',
       // @ts-ignore
